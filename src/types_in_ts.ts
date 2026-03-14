@@ -1,5 +1,5 @@
 let drink = "water";
-// Inferrence : TypeScript can automatically infer the type of a variable based on its initial value. In this case, since `drink` is initialized with a string value, TypeScript infers that `drink` is of type `string`.
+// Type Inference : TypeScript can automatically infer the type of a variable based on its initial value. In this case, since `drink` is initialized with a string value, TypeScript infers that `drink` is of type `string`.
 let cups = Math.random() > 0.5 ? 10 : 5; 
 
 // type annotation : we can explicitly specify the type of a variable using type annotations. This is useful when TypeScript cannot infer the type correctly or when we want to be more explicit about the intended type.
